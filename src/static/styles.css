@@ -194,6 +194,23 @@ footer {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+  flex: 1;
+}
+
+.delete-btn {
+  background: none;
+  border: none;
+  color: #ff4444;
+  font-size: 20px;
+  padding: 0 8px;
+  cursor: pointer;
+  opacity: 0.6;
+  transition: opacity 0.2s;
+}
+
+.delete-btn:hover {
+  opacity: 1;
+  background: none;
 }
 
 /* Empty state for participants */
